@@ -39,7 +39,7 @@ using namespace reactesp;
 
 ReactESP app;
 
-setup() {
+void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
 
   app.onRepeat(1000, [] () {
